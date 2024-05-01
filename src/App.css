@@ -1,0 +1,41 @@
+.login_container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid gray;
+  padding: 22px;
+  border-radius: 5px;
+}
+
+.input_box {
+  gap: 12px;
+  margin: 22px 0px;
+}
+
+.input_box label {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.input_box input {
+  padding: 5px 12px;
+  font-size: 19px;
+}
+
+button {
+  padding: 8px 22px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+}
+
+.profile_container {
+  padding: 0px 22px;
+}
